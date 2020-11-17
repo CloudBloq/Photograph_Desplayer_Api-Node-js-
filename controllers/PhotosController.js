@@ -10,6 +10,7 @@ const createPhotos = async (req, res) => {
         return res.status(500).json({ error: error.message })
     }
 }
+
 const getPhotographerByEmail = async (req, res) => {
     const { photographerId } = req.params;
 
